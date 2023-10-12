@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    color-scheme: dark;
+}
+
+.HeaderBody{
+    background-color:#202020;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+p, h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Headers{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    font-family: "HeaderFont";
+    font-size: 2rem;
+}
+
+.MainText{
+    text-wrap: wrap;
+    line-height: 2rem;
+    padding: 40px 40px 40px 40px;
+    font-family: "MainFont";
+}
+#Top{
+    padding-bottom: 5px;
+}
+#SemiColonEnding{
+    padding-bottom: 0px
+}
+#BulletPoint{
+    padding-left: 100px;
+}
+
+#ColorChange:hover{
+    color: #5e5e5e;
+}
+
+/* #region Fonts */
+@font-face {
+    src: url(Fonts/Nunito-VariableFont_wght.ttf);
+    font-family: "LogoFont";
+}
+@font-face {
+    font-family: "HeaderFont";
+    src: url(Fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "MainFont";
+    src: url(Fonts/static/SpaceGrotesk-Light.ttf);
+}
+@font-face {
+    font-family: "MainFontBold";
+    src: url(Fonts/static/SpaceGrotesk-Bold.ttf);
+}
+/* #endregion */
+
+/* #region Header*/
+.header{
+    background-color: #ED2B32;
+    border-bottom: 5px solid darkred;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IconAndName{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.Contacts{
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.ContactIcons{
+    padding-right: 20px;
+    width: 2rem;
+}
+#YoutubeIcon{
+    transition: transform 0.2s;
+}
+#YoutubeIcon:hover{
+    transform: scale(1.2);
+}
+#DiscordIcon{
+    transition: transform 0.2s;
+}
+#DiscordIcon:hover{
+    transform: scale(1.2);
+}
+#TwitterIcon{
+    padding-right: 13px;
+    transition: transform 0.2s;
+}
+#TwitterIcon:hover{
+    transform: scale(1.2);
+}
+#EmailIcon{
+    transition: transform 0.2s;
+    padding-right: 10px;
+}
+#EmailIcon:hover{
+    transform: scale(1.2);
+}
+
+#headerText{
+    font-family: "LogoFont";
+    font-size: 2.5rem;
+    color: white;
+}
+
+#headerIcon{
+    padding: 10px 10px 10px 10px;
+    width: 5rem;
+    transition: transform 0.2s;
+}
+#headerIcon:hover{
+    transform: scale(1.2);
+}
+/*#endregion*/
+
+/* #region Main Part of Home Page */
+.HeaderTexts{
+    padding-left: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* #end region */
+
+/* #region Footer */
+.FooterLogoAndText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ED2B32;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 5px solid darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterLogo{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 2.5rem;
+}
+/* #endregion */
+
+/* #region Terms of Service */
+.TermsAndConditionsAndPrivacy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TermsAndPrivacyContainer{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    background-color:#3a3a3a;
+    border-radius: 30px;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+.TermsAndPrivacyContainer:hover{
+    transform: scale(1.005);
+    box-shadow: 1px 1px 20px #5e5e5e;
+}
+/* #endregion */
